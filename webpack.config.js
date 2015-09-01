@@ -44,5 +44,8 @@ module.exports = {
       template: 'src/index.html',
     }),
     new ExtractTextPlugin('styles/[name].css')
-  ]
+  ],
+  eslint: {
+    configFile: '.eslintrc'
+  }
 };
