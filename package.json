@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "WebApp Seed Project",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --content-base build --hot --inline",
+    "start": "./node_modules/.bin/webpack-dev-server -d --content-base build --hot --inline",
     "build": "./node_modules/.bin/webpack -p",
     "clean": "rm -rf build"
   },
