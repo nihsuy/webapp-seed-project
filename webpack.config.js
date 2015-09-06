@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: 'build',
     publicPath: '',
-    filename: "scripts/[name].js"
+    filename: 'scripts/[name].js'
   },
   module: {
     preLoaders: [
