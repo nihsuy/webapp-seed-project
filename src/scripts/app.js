@@ -1,3 +1,5 @@
 import '../styles/app.scss';
 
-document.body.innerHTML = 'WebApp Seed Project!';
+import '../images/logo.png';
+
+document.getElementById('title').innerHTML = 'WebApp Seed Project!';
